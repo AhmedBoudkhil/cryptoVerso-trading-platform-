@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navbar {
+  background: linear-gradient(90deg, #0052ff, #243b55);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+  
+}
+.nav-logo a{
+  font-size: 1.9em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #fff  ;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #00e0ff;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+.nav-toggle{
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.nav-toggle .bar{
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
