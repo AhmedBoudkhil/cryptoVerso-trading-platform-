@@ -1,0 +1,93 @@
+.features {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.feature-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    gap: 30px;
+    padding: 80px 0;
+
+}
+.feature-img{
+    width: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-left: 12%;
+
+} 
+.feature-img img{
+    display: block;
+    width: 100% ;
+    height:100%;
+    object-fit: cover;
+}
+.feature-text{
+    max-width: 540px;
+}
+
+.feature-text h4 {
+    color: #0052ff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 30px 0;
+
+
+}
+.feature-text h2{
+    font-size: 3em;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.feature-text p{
+    font-style: oblique;
+    line-height: 22px;
+    margin: 15px 0;
+
+}
+
+.feature-text button{
+    background-color: #0052ff;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+
+}
+.feature-text button:hover {
+  background-color: #003bb5;
+}
+
+@media (max-width: 900px){
+    .feature-item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .feature-item.reverse {
+        flex-direction: column;
+    }
+    .feature-img img {
+        width: 80%;
+    }
+    .feature-text {
+        margin-top: 30px;
+    }
+
+
+
+}

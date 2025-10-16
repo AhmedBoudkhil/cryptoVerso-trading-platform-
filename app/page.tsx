@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Hero from "./Hero";
 import Hero2 from "./Hero2";    
+import Features from "./features"
 import "./globals.css";
 import "./Navbar.css";
 
@@ -30,6 +31,7 @@ export default function Navbar() {
             </nav>
             <Hero />
             <Hero2 />
+            <Features />
         </>
     )
 }
