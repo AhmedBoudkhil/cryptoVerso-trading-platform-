@@ -65,3 +65,26 @@
   transition: 0.4s;
 }
 
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: linear-gradient(90deg, #0052ff, #243b55);
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .nav-links.open {
+    max-height: 300px; /* expands when menu opens */
+  }
+
+  .nav-toggle {
+    display: flex; /* shows the hamburger */
+  }
+}
