@@ -1,9 +1,11 @@
 "use client";
-
+import React from "react";
 import cryptocoins from "./assets/download2.avif";
 import "./Hero2.css";
 
-export default function Hero2() {
+
+
+const Hero2 :React.FC = () =>{
   return (
     <section className="hero2-container">
       <div className="hero2-left">
@@ -19,3 +21,5 @@ export default function Hero2() {
     </section>
   );
 }
+
+export default  Hero2;

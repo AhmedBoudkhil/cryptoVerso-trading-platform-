@@ -1,0 +1,68 @@
+.stats-container{
+  width: 100%;
+  text-align: center;
+  background-color:  #0052ff;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 80px 15px;
+}
+
+.stats-header h1{
+  font-size: 2.4em;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-style: italic;
+}
+.stats-header p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  color: #e0e0e0;
+
+}
+
+.create-btn{
+  background-color: white;
+  color: #0052ff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+.create-btn:hover {
+  background-color: #e6e6e6;
+}
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+  
+
+}
+.stat-box{
+  border-left: 2px #fff solid;
+  padding-left: 30px 10px;
+
+}
+
+
+.stat-box h1 {
+  font-size: 3.3em;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.stat-box p {
+  font-size: 0.8em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-left: 1%;
+  line-height: 25px;
+  letter-spacing: 6px;
+}

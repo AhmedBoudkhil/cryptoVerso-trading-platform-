@@ -3,8 +3,10 @@ import React, { useState } from "react";
 import Hero from "./Hero";
 import Hero2 from "./Hero2";    
 import Features from "./features"
+import StatsSection from "./StatsSection";
 import "./globals.css";
 import "./Navbar.css";
+import "./StatsSection.css"
 
 export default function Navbar() {
 
@@ -32,6 +34,7 @@ export default function Navbar() {
             <Hero />
             <Hero2 />
             <Features />
+            <StatsSection />
         </>
     )
 }
