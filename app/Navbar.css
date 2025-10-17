@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .navbar {
-  background: linear-gradient(90deg, #0052ff, #243b55);
+  
+  background: radial-gradient(circle, rgba(0, 82, 255, 1) 0%, rgba(0, 123, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
   color: #fff;
   display: flex;
   justify-content: space-between;
