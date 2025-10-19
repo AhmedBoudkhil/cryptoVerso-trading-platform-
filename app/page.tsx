@@ -4,10 +4,12 @@ import Hero from "./Hero";
 import Hero2 from "./Hero2";    
 import Features from "./features"
 import StatsSection from "./StatsSection";
+import TrustSection from "./TrustSection.tsx";
 import "./globals.css";
 import "./Navbar.css";
 import "./StatsSection.css"
-
+import "./TrustSection.tsx"
+import "./TrustSection.css";
 export default function Navbar() {
 
     const[isOpen,setOpen] = useState(false)
@@ -35,6 +37,7 @@ export default function Navbar() {
             <Hero2 />
             <Features />
             <StatsSection />
+            <TrustSection />
         </>
     )
 }
