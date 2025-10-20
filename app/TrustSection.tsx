@@ -1,5 +1,10 @@
 import React from "react";
 import "./TrustSection.css";
+import safe from "./assets/icons/safe-3.svg";
+import suport from "./assets/icons/support-5.svg";
+import world from "./assets/icons/worldwide-3.svg";
+import economy from "./assets/icons/economyGlobal-3.svg";
+
 const TrustSection : React.FC = () => {
     return(
         <div className="sectoin-container">
@@ -14,22 +19,22 @@ const TrustSection : React.FC = () => {
             
             <div className="cards">
                 <div className="card">
-                    <img src="C:\Users\pc\Documents\reactApp\my-app\app\worldwide-3.svg"alt="" />
+                    <img src={world}alt="" />
                     <h3>The largest public crypto company</h3>
                     <p>We operate with financial transparency.</p>
                 </div>
                 <div className="card">
-                    <img src="C:\Users\pc\Documents\reactApp\my-app\app\safe-3.svg"alt="" />
+                    <img src={safe}alt="" />
                     <h3>You can always contact our support team for quick solutions to common problems.</h3>
                     <p>Our risk management measures are designed to protect your assets.</p>
                 </div>
                 <div className="card">
-                    <img src="C:\Users\pc\Documents\reactApp\my-app\app\support-5.svg" alt="" />
+                    <img src={suport} alt="" />
                     <h3>Get the help you need, when you need it</h3>
                     <p>You can always contact our support team for quick solutions to common problems.</p>
                 </div>
                 <div className="card">
-                    <img src="C:\Users\pc\Documents\reactApp\my-app\app\economyGlobal-3.svg" alt="" />
+                    <img src={economy} alt="" />
                     <h3>Industry best practices</h3>
                     <p>Coinbase supports a variety of the most popular digital currencies.</p>
                 </div>
