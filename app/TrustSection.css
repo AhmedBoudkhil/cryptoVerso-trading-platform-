@@ -84,3 +84,40 @@
   font-size: 0.95rem;
 }
 
+<<<<<<< HEAD
+=======
+}
+.card{
+    margin-top: 4%;
+    width: 230px;
+    box-shadow: -20px -29px 42px -42px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -20px -29px 42px -42px rgba(0,0,0,0.75);
+    -moz-box-shadow: -20px -29px 42px -42px rgba(0,0,0,0.75);
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3{
+    font-weight: 600;
+    font-size: 1.1rem;
+
+
+}
+.card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+>>>>>>> 315f124 (we add icnons and styles to trustsection adn enhanced svg)
