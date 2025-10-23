@@ -1,7 +1,8 @@
-.sectoin-container{
+.section-container{
     text-align: center;
     padding: 20px 14px;
     font-family: 'Roboto', sans-serif;
+    padding-top: 4%;
     
 }
 .header{
@@ -84,9 +85,6 @@
   font-size: 0.95rem;
 }
 
-<<<<<<< HEAD
-=======
-}
 .card{
     margin-top: 4%;
     width: 230px;
@@ -120,4 +118,3 @@
   height: 50px;
   margin-bottom: 20px;
 }
->>>>>>> 315f124 (we add icnons and styles to trustsection adn enhanced svg)

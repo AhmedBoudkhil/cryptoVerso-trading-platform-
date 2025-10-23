@@ -3,8 +3,7 @@ import React from "react";
 
 const StatsSEction : React.FC = () =>{
   return (
-    <section className="
-    ">
+    <section className="stats-container">
       <div className="stats-header">
         <h1>Get started in a few minutes</h1>
         <p>Create an account, link your bank account, and start buying & selling.</p>
